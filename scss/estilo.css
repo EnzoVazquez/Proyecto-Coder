@@ -1,0 +1,211 @@
+header {
+  background-color: #32502E;
+  color: #F3EFCC;
+  font-family: "Graduate", cursive;
+}
+
+header h1 {
+  font-size: 6rem;
+  text-align: center;
+}
+
+header .redes {
+  margin-left: 0.6rem;
+}
+
+nav {
+  margin-top: 0px;
+}
+
+nav ul {
+  background-color: #32502E;
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  font-size: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Poppins", sans-serif;
+  gap: 2rem;
+  margin-bottom: 0px;
+}
+
+nav ul a {
+  color: #F3EFCC;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+}
+
+nav ul a:hover {
+  background: -webkit-gradient(linear, left bottom, left top, from(#406343), to(#32502E));
+  background: linear-gradient(to top, #406343, #32502E);
+  color: #F3EFCC;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+h3 h4 {
+  font-family: "Poppins", sans-serif;
+}
+
+footer {
+  background-color: #32502E;
+}
+
+footer .footer {
+  color: #F3EFCC;
+  list-style-type: none;
+  font-size: 17.5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100%;
+  padding: 3rem;
+  margin-bottom: 0px;
+}
+
+footer .footer li:hover {
+  font-weight: 600;
+}
+
+table {
+  background-color: #32502E;
+  font-family: "Poppins", sans-serif;
+}
+
+table tr {
+  background-color: #32502E;
+}
+
+table tr th {
+  padding: 5px;
+}
+
+main div {
+  border-width: medium;
+  border-top-color: #CC0000;
+  border-right-color: blue;
+  border-bottom-color: #00FF00;
+  border-left-color: #CCC;
+}
+
+main .centrado {
+  padding-left: auto;
+  padding-right: auto;
+}
+
+main .letraProductos {
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+main .letraTitulos {
+  font-family: "Graduate", cursive;
+}
+
+main .promo {
+  background-color: #406343;
+  color: #F3EFCC;
+  font-family: "Poppins", sans-serif;
+  margin-top: 0px;
+  text-align: center;
+}
+
+main .publicidad {
+  width: 350px;
+  cursor: pointer;
+}
+
+main .alineo {
+  text-align: center;
+  gap: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+main .oportunidades {
+  text-align: center;
+}
+
+main .efecto {
+  text-align: center;
+}
+
+main .efecto:hover {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+  cursor: pointer;
+}
+
+main h3 {
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+}
+
+main p {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+
+main .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+* {
+  padding: 0;
+  margin: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=estilo.css.map */

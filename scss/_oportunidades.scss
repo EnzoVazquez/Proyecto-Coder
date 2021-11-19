@@ -1,0 +1,12 @@
+$fuenteTitulos:'Graduate', cursive;
+$fuenteTexto: 'Poppins', sans-serif;
+$colorClaro:#F3EFCC;
+$colorOscuro:#32502E;
+h3{
+    font-family: $fuenteTexto;
+    text-align: center;
+    padding-top: 2rem;
+    h4{
+        font-family: $fuenteTexto;
+    }
+}

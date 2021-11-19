@@ -1,0 +1,74 @@
+$fuenteTitulos:'Graduate', cursive;
+$fuenteTexto: 'Poppins', sans-serif;
+$colorClaro:#F3EFCC;
+$colorOscuro:#32502E;
+$verde2: #406343;
+main{
+    div{
+        border-width: medium;
+        border-top-color: #CC0000;
+        border-right-color: blue;
+        border-bottom-color: #00FF00;
+        border-left-color: #CCC;
+    }
+    .centrado{
+        padding-left: auto;
+        padding-right: auto;
+    }
+    .letraProductos{
+        font-family: $fuenteTexto;
+        font-weight: bolder;
+        font-size: 1rem;
+    }
+    .letraTitulos{
+        font-family: $fuenteTitulos;
+    }
+    .promo{
+        background-color: $verde2;
+        color: $colorClaro;
+        font-family: $fuenteTexto;
+        margin-top: 0px;
+        text-align: center;
+    }
+    .publicidad{
+        width: 350px;
+        cursor: pointer;
+    }
+    .alineo{
+        text-align: center;
+        gap: 15px;
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-top: 20px ;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+    .oportunidades{
+        text-align: center;
+    }
+    .efecto{
+        text-align: center;
+    }
+    .efecto:hover{
+        transform: scale(1.15);
+        cursor: pointer;
+    }
+    h3{
+        text-align: left;
+        font-family: $fuenteTexto;
+        font-weight: bolder;
+    }
+    p{
+        font-family: $fuenteTexto;
+        font-size: 20px;
+    }
+    .flex{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+    }
+}

@@ -1,0 +1,35 @@
+
+$fuenteTitulos:'Graduate', cursive;
+$fuenteTexto: 'Poppins', sans-serif;
+$colorClaro:#F3EFCC;
+$colorOscuro:#32502E;
+nav{
+    margin-top: 0px;
+    ul{
+        background-color: $colorOscuro;
+        list-style-type: none;
+        padding: 0;
+        width: 100%;
+        font-size: 25px;
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        font-family: $fuenteTexto;
+        gap: 2rem;
+        margin-bottom: 0px;
+        a{
+            color:#F3EFCC;
+            text-decoration: none;
+            display: inline-block;
+            padding: 10px;
+            
+        } 
+        a:hover{
+            background: linear-gradient(to top,#406343,#32502E);
+            color: $colorClaro;
+        }
+        
+    }
+}

@@ -1,0 +1,22 @@
+$fuenteTitulos:'Graduate', cursive;
+$fuenteTexto: 'Poppins', sans-serif;
+$colorClaro:#F3EFCC;
+$colorOscuro:#32502E;
+footer{
+    background-color: #32502E;
+    .footer{
+        color: #F3EFCC;
+        list-style-type: none;
+        font-size: 17.5px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        width: 100%;
+        padding: 3rem;
+        margin-bottom: 0px;
+            li:hover{
+                font-weight: 600;   
+            }
+    }
+}

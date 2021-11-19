@@ -1,0 +1,15 @@
+$fuenteTitulos:'Graduate', cursive;
+$colorClaro:#F3EFCC;
+$colorOscuro:#32502E;
+header{
+    background-color: #32502E;
+    color: $colorClaro;
+    font-family: $fuenteTitulos;
+     h1{
+        font-size: 6rem;
+        text-align: center;
+    }
+    .redes{
+        margin-left: 0.6rem;
+    }
+}

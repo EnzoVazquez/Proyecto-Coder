@@ -1,0 +1,14 @@
+$fuenteTitulos:'Graduate', cursive;
+$fuenteTexto: 'Poppins', sans-serif;
+$colorClaro:#F3EFCC;
+$colorOscuro:#32502E;
+table{
+    background-color: $colorOscuro;
+    font-family: $fuenteTexto;
+    tr{
+        background-color: $colorOscuro;
+        th{
+            padding: 5px;
+        }
+    }
+}
